@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@600&family=Mulish:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans' , sans-serif;
+}
+nav{
+    padding-bottom: 100px;
+    padding-right: 180px;
+    padding-left: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_lists{
+    display: flex;
+    gap: 50px;
+}
+.nav_lists{
+    list-style: none;
+}
+.nav_lists a{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+}
+.nav_lists a:hover{
+    color: #19191b;
+    border-bottom: 2px solid #5454d4;
+}
+.btn_1{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: #FF7143;
+    cursor: pointer;
+    border-color: #FF7143;
+}
+.btn_1:hover{
+    background-color: white;
+    color: #FF7143;
+    border-color: #FF7143;
+    box-shadow: 1px 1px 50px #FF7143;
+}
+/* navbar end */
+/* header sterted */
+.header_1{
+    display: flex;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+.header_1 h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+}
+.hr_1{
+    display: flex;
+    flex-direction: column;
+}
+.header_1 p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;    
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+.hr_btn{
+    margin-top: 50px;
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #5454d4;
+    background: #5454D4;
+    border-radius: 10px;
+}
+.hr_btn:hover{
+    cursor: pointer;
+    color: #5454D4;
+    background-color: white;
+    border-color: #5454D4;
+    box-shadow: 1px 1px 50px #5454d4;
+}
+.strelca{
+    border: 1px solid #19191B;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.strelca:hover{
+    cursor: pointer;
+}
+.hr_div_3{
+    display: flex;
+}
